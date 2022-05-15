@@ -1,10 +1,10 @@
 " set leader key
 let g:mapleader = "\<Space>"
 let g:coc_global_extensions  = ['coc-json', 'coc-git', 'coc-snippets', 'coc-html', 'coc-explorer', 'coc-yaml', 'coc-vimlsp', 'coc-tsserver', 'coc-python', 'coc-css', 'coc-clangd']
-let g:floaterm_keymap_new    = '<F7>'
-let g:floaterm_keymap_prev   = '<F8>'
-let g:floaterm_keymap_next   = '<F9>'
-let g:floaterm_keymap_toggle = '<F12>'
+let g:floaterm_keymap_new    = '<F4>'
+let g:floaterm_keymap_prev   = '<F3>'
+let g:floaterm_keymap_next   = '<F2>'
+let g:floaterm_keymap_toggle = '<F1>'
 
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
