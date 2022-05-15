@@ -50,7 +50,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'voldikss/vim-floaterm'
     " Snippets
     Plug 'honza/vim-snippets'
-
+    " Floating Terminal
+    Plug 'voidikiss/vim-floaterm' 
 call plug#end()
 
 " Automatically install missing plugins on startup
