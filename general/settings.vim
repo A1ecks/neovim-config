@@ -1,5 +1,6 @@
 " set leader key
 let g:mapleader = "\<Space>"
+let g:coc_global_extensions  = ['coc-json', 'coc-git', 'coc-snippets', 'coc-html', 'coc-explorer', 'coc-yaml', 'coc-vimlsp', 'coc-tsserver', 'coc-python', 'coc-css', 'coc-clangd']
 
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
