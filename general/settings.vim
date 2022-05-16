@@ -6,6 +6,9 @@ let g:floaterm_keymap_prev   = '<F3>'
 let g:floaterm_keymap_next   = '<F2>'
 let g:floaterm_keymap_toggle = '<F1>'
 
+" Font setting for GUI Neovim clients
+set guifont=PerfectDOSVGA437\ Nerd\ Font\:h12
+
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line

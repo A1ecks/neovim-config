@@ -52,6 +52,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'honza/vim-snippets'
     " Floating Terminal
     Plug 'voldikss/vim-floaterm' 
+    " Neovim web browser integreation
+    Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+    " Task System
+    Plug 'skywind3000/asynctasks.vim'
+    Plug 'skywind3000/asyncrun.vim'
+    " Scratchpad
+    Plug 'metakirby5/codi.vim'    
 
 call plug#end()
 
