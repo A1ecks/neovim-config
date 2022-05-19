@@ -47,3 +47,7 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 
 " You can't stop me
 cmap w!! w !sudo tee %
+
+" Compile and run C++ projects
+autocmd Filetype cpp command! RunCode FloatermNew! g++ *.cpp *.h -o output & clear; ./output; echo -e ""; echo -e ""; read -n 1 -s -r -p "Press any key to continue..."; echo -e ""; exit 
+map <F5> :RunCode<CR>

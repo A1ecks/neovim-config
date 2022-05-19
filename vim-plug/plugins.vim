@@ -57,8 +57,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Task System
     Plug 'skywind3000/asynctasks.vim'
     Plug 'skywind3000/asyncrun.vim'
-    " Scratchpad
-    Plug 'metakirby5/codi.vim'    
 
 call plug#end()
 
