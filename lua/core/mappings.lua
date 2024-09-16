@@ -7,7 +7,8 @@ M.general = {
     -- go to  beginning and end
     ["<C-b>"] = { "<ESC>^i", "Beginning of line" },
     ["<C-e>"] = { "<End>", "End of line" },
-
+    -- Exit Insert Mode
+    ["jk"] = {"<ESC>", "Leave Insert Mode"},
     -- navigate within insert mode
     ["<C-h>"] = { "<Left>", "Move left" },
     ["<C-l>"] = { "<Right>", "Move right" },
@@ -63,6 +64,7 @@ M.general = {
     ["<Down>"] = { 'v:count || mode(1)[0:1] == "no" ? "j" : "gj"', "Move down", opts = { expr = true } },
     ["<"] = { "<gv", "Indent line" },
     [">"] = { ">gv", "Indent line" },
+    ["jk"] = {"<ESC>", "Leave Visual Mode"},
   },
 
   x = {
